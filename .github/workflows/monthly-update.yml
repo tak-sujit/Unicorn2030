@@ -1,0 +1,52 @@
+name: Monthly Unicorn2030 Cycle
+
+on:
+  schedule:
+    - cron: "0 4 1 * *"
+  workflow_dispatch:
+    inputs:
+      cycle_month:
+        description: "Target cycle month (YYYY-MM), e.g., 2026-12"
+        required: false
+        type: string
+
+permissions:
+  issues: write
+
+jobs:
+  open-monthly-checklist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine target month (YYYY-MM)
+        id: vars
+        run: |
+          if [ -n "${{ inputs.cycle_month }}" ]; then
+            MONTH="${{ inputs.cycle_month }}"
+          else
+            MONTH=$(date -u +"%Y-%m")
+          fi
+          echo "month=${MONTH}" >> "$GITHUB_OUTPUT"
+
+      - name: Create monthly cycle tracking issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const month = "${{ steps.vars.outputs.month }}";
+            const title = `Monthly Update Cycle: ${month}`;
+            const body = [
+              `## Monthly Pipeline — ${month}`,
+              `Target baseline: **${month}** | Horizon: **Now -> Dec 31, 2030**`,
+              ``,
+              `- [ ] Audit top-5 jurisdictions and material shifts across Engines 01–08`,
+              `- [ ] Update causal chains (\`[Cause] -> [Mechanism] -> [Pressure]\`) and engine Monthly Logs`,
+              `- [ ] Update cross-engine intersections and Monthly Convergence Log in \`CONVERGENCE.md\``,
+              `- [ ] Publish \`monthly-digests/${month}.md\``,
+              `- [ ] Tag monthly release \`v${month}\` after merging changes`
+            ].join("\n");
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body
+            });
