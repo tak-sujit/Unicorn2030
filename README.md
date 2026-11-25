@@ -1,2 +1,46 @@
 # Unicorn2030
 A living foresight project mapping the structural causes reshaping the world through Dec 31, 2030 - tracked across 8 core engines, updated monthly.
+
+> **Why "Unicorn2030"?**  
+> A unicorn is imaginary: until 2030 arrives, any model of the future is a calculated thought in our heads, not reality. History is often bent by **exceptions**, so this project tracks both the forces already in motion and the fault lines where exceptions are most likely to erupt.
+
+---
+
+## What We Do (and Don't Do)
+
+* **Causes over exact predictions:** Instead of forcing percentage odds on future outcomes, we map clear causal chains:
+  `[Active Root Cause] -> [Forcing Mechanism] -> [2030 Structural Pressure]`
+* **2030 horizon discipline:** We focus on forces shaping lived reality through **Dec 31, 2030**—including jobs, skills, degrees, commodities, inflation, bond yields, supply chains, and regulation. Anything with real-world impact only beyond 2030 is left aside.
+* **Fault-line tracking:** When two engines collide (such as rising power demand vs. grid limits), we flag the tension rather than averaging it away.
+* **Monthly updates:** Each engine acts as a sub-project updated monthly (`+ Add`, `~ Update`, `- Retire`, `! Flag`), including policy and legal shifts in the **top 5 nations** shaping that domain.
+
+---
+
+## The 8 Core Engines
+
+| # | Engine | Top-5 Policy Trackers |
+| :--- | :--- | :--- |
+| **01** | Geopolitics, Security & Governance | US, China, EU, India, Russia |
+| **02** | Macroeconomy, Capital & Labor | US, China, EU, India, Japan |
+| **03** | Technology & Digital Infrastructure | US, China, EU, South Korea, India |
+| **04** | Supply Chains & Industrial Policy | China, US, EU, Japan, India |
+| **05** | Energy, Resources & Physical Infrastructure | China, US, EU, India, Saudi Arabia |
+| **06** | Demographics, Health & Human Capital | India, China, US, EU, Japan |
+| **07** | Society, Culture & Information Ecosystems | US, EU, India, Brazil, UK |
+| **08** | Climate & Biosphere | EU, China, US, India, Brazil |
+
+---
+
+## How to Explore or Contribute
+
+* **Browse an engine:** Open [`engines/`](engines/) to read active causal chains and top-5 policy gates.
+* **Check monthly changes:** Open [`monthly-digests/`](monthly-digests/) to see what changed in a given month.
+* **Suggest a cause or challenge an assumption:** Contributions are optional—open an Issue using the cause template or start a Discussion.
+
+## License
+
+This project is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)** — see the [LICENSE](LICENSE) file for details.
+
+In plain English, you are free to **share**, **quote**, and **build upon** this work for any purpose (including commercial), as long as you:
+* **Credit Unicorn2030** and link back to this repository and the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+* **Note if you made changes** and avoid implying that Unicorn2030 endorses your version.
