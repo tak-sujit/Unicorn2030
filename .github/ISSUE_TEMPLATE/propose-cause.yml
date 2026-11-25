@@ -1,0 +1,45 @@
+name: Propose a 2030 Cause or Fault Line
+description: Submit a structural cause, policy shift, or cross-engine fault line through Dec 31, 2030.
+title: "[Engine XX]: Short title of cause or fault line"
+labels:
+  - proposal
+body:
+  - type: dropdown
+    id: engine
+    attributes:
+      label: Primary Engine
+      options:
+        - "01: Geopolitics, Security & Governance"
+        - "02: Macroeconomy, Capital & Labor"
+        - "03: Technology & Digital Infrastructure"
+        - "04: Supply Chains & Industrial Policy"
+        - "05: Energy, Resources & Physical Infrastructure"
+        - "06: Demographics, Health & Human Capital"
+        - "07: Society, Culture & Information Ecosystems"
+        - "08: Climate & Biosphere"
+    validations:
+      required: true
+  - type: dropdown
+    id: wave
+    attributes:
+      label: Impact Wave
+      options:
+        - "2027-2028 Wave"
+        - "2029-2030 Wave"
+    validations:
+      required: true
+  - type: textarea
+    id: chain
+    attributes:
+      label: Causal Chain (Now -> 2030)
+      description: Format as [Active Root Cause] -> [Forcing Mechanism] -> [2030 Structural Pressure]
+      placeholder: "[Cause now] -> [Mechanism scaling it] -> [2030 structural pressure]"
+    validations:
+      required: true
+  - type: textarea
+    id: fault_lines
+    attributes:
+      label: Cross-Engine Fault Lines & Sources (Optional)
+      description: List colliding engines (01-08), key policies, and verified sources.
+    validations:
+      required: false
