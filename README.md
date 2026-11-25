@@ -19,10 +19,20 @@ A living foresight project mapping the structural causes reshaping the world thr
 ## Repository Layout
 * [CONVERGENCE.md](CONVERGENCE.md) — Cross-engine overlaps, bottlenecks, and 2030 pressures across Engines `01`–`08`
 * `engines/` — Domain baselines (`01` through `08`), each structured around factors, policies, causal chains, fault lines, and a monthly log
+  * [01-geopolitics-security-governance.md](engines/01-geopolitics-security-governance.md)
+  * [02-macroeconomy-capital-labor.md](engines/02-macroeconomy-capital-labor.md)
+  * [03-technology-digital-infrastructure.md](engines/03-technology-digital-infrastructure.md)
+  * [04-supply-chains-industrial-policy.md](engines/04-supply-chains-industrial-policy.md)
+  * [05-energy-resources-physical-infrastructure.md](engines/05-energy-resources-physical-infrastructure.md)
+  * [06-demographics-health-human-capital.md](engines/06-demographics-health-human-capital.md)
+  * [07-society-culture-information-ecosystems.md](engines/07-society-culture-information-ecosystems.md)
+  * [08-climate-biosphere.md](engines/08-climate-biosphere.md)
 * `monthly-digests/` — Monthly cross-engine snapshots (`2026-11.md` onward)
-* `.github/ISSUE_TEMPLATE/propose-cause.yml` — Structured issue form for proposing causes or fault lines
-* `CONTRIBUTING.md` — Contribution rules and formatting standards
-* `LICENSE` — CC BY 4.0 licensing terms
+  * [2026-11.md](monthly-digests/2026-11.md)
+* `.github/ISSUE_TEMPLATE/` — Structured templates for community contributions
+  * [propose-cause.yml](.github/ISSUE_TEMPLATE/propose-cause.yml)
+* [CONTRIBUTING.md](CONTRIBUTING.md) — Contribution rules and formatting standards
+* [LICENSE](LICENSE) — CC BY 4.0 licensing terms
 
 ---
 
