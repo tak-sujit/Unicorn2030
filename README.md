@@ -43,4 +43,4 @@ This project is licensed under **Creative Commons Attribution 4.0 International 
 
 In plain English, you are free to **share**, **quote**, and **build upon** this work for any purpose (including commercial), as long as you:
 * **Credit Unicorn2030** and link back to this repository and the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
-* **Note if you made changes** and avoid implying that Unicorn2030 endorses your version.
+* **Say if you changed anything**, and do not claim Unicorn2030 endorses your edits or conclusions. Example: "Adapted from Unicorn2030 (CC BY 4.0) with updated 2027 assumptions."
