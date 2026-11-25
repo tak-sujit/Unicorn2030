@@ -1,41 +1,51 @@
-### Engine #08 Baseline — Climate & Biosphere (`engines/08-climate-biosphere.md`)
+# Engine 08: Climate & Biosphere
 
-**Baseline Date:** November 2026 | **Horizon:** Now $\rightarrow$ Dec 31, 2030 | **Top-5 Trackers:** EU, China, US, India, Brazil
+**Baseline:** 2026-11 | **Horizon:** Now -> Dec 31, 2030 | **Top-5:** EU, China, US, India, Brazil
 
-#### 1. Top-5 Policy & Legal Gates
+## 1. Factors Checked (Research Scope)
 
-| Jurisdiction | Active Policy / Legal Gate | How It Gates 2026 $\rightarrow$ 2030 Reality |
+* Extreme heat, floods, storms, and drought frequency
+* Property/reinsurance pricing and coverage withdrawals
+* Carbon pricing, border rules, and industrial emissions caps
+* Crop yield stability and food/input cost pass-through
+* Grid cooling load and water availability for power/industry
+
+## 2. Policies in Action (Top-5 Gate)
+
+| Country | Active Policy / Rule | 2030 Impact |
 | --- | --- | --- |
-| **European Union** | **CBAM Definitive Regime** in force since Jan 1, 2026 (cement, iron & steel, aluminum, fertilizers, electricity, hydrogen), with first annual declarations due Sept 30, 2027. | Imposes carbon-certificate costs on covered imports into the EU, forcing exporters to price or cut embedded emissions before 2030. |
-| **China** | **National ETS Expansion** covering power plus steel, cement, and aluminum smelting, moving from intensity benchmarks toward tighter Phase 2 rules starting 2027 and future cap tightening. | Raises compliance and MRV discipline across heavy industrial emitters representing roughly 15% of global emissions. |
-| **United States** | **Federal Deregulation vs. State & Insurance Markets**: Weakened federal climate mandates push enforcement toward state rules, litigation, and property/reinsurance pricing. | Splits U.S. cost structure—lower federal compliance drag in some areas alongside sharp physical-risk repricing in exposed regions. |
-| **India** | **Carbon Credit Trading Scheme (CCTS)** compliance rolling out in 2026 across energy-intensive industrial sectors (such as iron & steel and aluminum) with Carbon Credit Certificates issuing via the national registry. | Introduces domestic industrial intensity targets and credit trading, shaping export competitiveness and efficiency capex through 2030. |
-| **Brazil** | **COP30 Deforestation Roadmap** targeting halting/reversing deforestation and forest degradation by 2030 alongside domestic biome oversight. | Links tropical forest preservation to agricultural land rules, soy/beef trade scrutiny, and regional rainfall stability through 2030. |
+| **EU** | CBAM definitive phase (in force Jan 2026); ETS allowance phase-down | Higher import costs on carbon-heavy goods; supply chain shifts |
+| **China** | National ETS expanded to heavy industry; tighter multi-year rules | Higher compliance costs on steel, cement, and aluminum |
+| **US** | Federal rollbacks vs. state rules and insurance repricing | Split cost rules; sharp risk pricing in exposed zones |
+| **India** | CCTS industrial compliance and carbon credit trading | Cost and efficiency pressure on energy-heavy sectors |
+| **Brazil** | COP30 deforestation roadmap and biome oversight | Land-use rules and ag/rainfall risk tied to forest health |
 
-#### 2. Active Causal Chains (Now $\rightarrow$ Dec 31, 2030)
+## 3. What Is Happening Now -> 2030 Pressures
 
-* **Cause `08-C1` — Carbon Border & Market Pricing on Heavy Materials** `[2027-2028 Wave]`
-* *Origin:* 2026-11 | *Last Verified:* 2026-11
-* *Chain:* `[EU CBAM definitive rules in force (Jan 2026) + China ETS industrial expansion & India CCTS rollout]` $\$rightarrow `[Carbon costs attach to steel, aluminum, cement, and fertilizers in trade and domestic compliance]` $\$rightarrow `[2030 Structural Pressure: Higher input costs for construction, machinery, and packaging, plus trade friction between low-carbon and high-carbon producers]`.
+* **`08-C1` Carbon Pricing on Heavy Materials** `[2027-2028 Wave]` *(Origin: 2026-11 | Verified: 2026-11)*
+`Carbon rules hit steel, cement, aluminum, and fertilizers` -> `Higher unit input costs` -> `Costlier construction, autos, and trade friction by 2030`
+* **`08-C2` Extreme Heat & Cooling Demand** `[2027-2028 Wave]` *(Origin: 2026-11 | Verified: 2026-11)*
+`Frequent heatwaves raise cooling demand` -> `Summer peak power strain and heat slowdowns` -> `Higher peak power costs and outdoor labor limits by 2030`
+* **`08-C3` Insurance & Credit Tightening** `[2027-2028 Wave]` *(Origin: 2026-11 | Verified: 2026-11)*
+`Rising weather payouts push insurers to raise rates or exit zones` -> `Tighter coverage and lending` -> `Home value, mortgage, and municipal budget pressure by 2030`
+* **`08-C4` Crop Shocks & Food Price Floors** `[2029-2030 Wave]` *(Origin: 2026-11 | Verified: 2026-11)*
+`Weather extremes hit key farming belts` -> `Lower buffers and export curbs in tight years` -> `Periodic food inflation spikes and ag-tech push by 2030`
 
+## 4. Fault Lines (Engine Collisions)
 
-* **Cause `08-C2` — Extreme Heat & Peak Cooling Load** `[2027-2028 Wave]`
-* *Origin:* 2026-11 | *Last Verified:* 2026-11
-* *Chain:* `[Recurring extreme heatwaves across populated regions]` $\rightarrow$ `[Surging summer air-conditioning demand and outdoor heat-stress limits]` $\rightarrow$ `[2030 Structural Pressure: Strained summer electricity grids, higher peak power prices, and slower outdoor construction/farm output]`
+* **Engine 08 x Engine 05 & 03:** Summer cooling spikes collide with data-center and power demand -> grid strain or connection delays
+* **Engine 08 x Engine 02 & 04:** Insurance retreat and carbon tariffs hit prices and trade -> inflation and capital reallocation
 
+## 5. Monthly Log (`2026-11`)
 
-* **Cause `08-C3` — Property Insurance & Credit Tightening in High-Risk Zones** `[2027-2028 Wave]`
-* *Origin:* 2026-11 | *Last Verified:* 2026-11
-* *Chain:* `[Frequent floods, storms, and wildfires raising catastrophe payout expectations]` $\rightarrow$ `[Insurers raise premiums, cut coverage, or exit high-risk zip codes]` $\rightarrow$ `[2030 Structural Pressure: Pressure on home values, mortgage affordability, and local tax bases in hazard-prone areas]`
+* `[+ ADD]` Initialized `08-C1` through `08-C4` and Top-5 policy baseline
+* `[~ UPDATE]` None (baseline month)
+* `[- RETIRE]` None (baseline month)
+* `[! FLAG]` Summer grid strain and insurance/credit repricing fault lines
 
+---
 
-* **Cause `08-C4` — Agricultural Weather Shocks & Food Price Floors** `[2029-2030 Wave]`
-* *Origin:* 2026-11 | *Last Verified:* 2026-11
-* *Chain:* `[Droughts, floods, and heat spikes hitting key crop belts]` $\rightarrow$ `[Harvest shortfalls and export restrictions during tight supply years]` $\rightarrow$ `[2030 Structural Pressure: Periodic food inflation spikes and stronger push for drought-resilient crops and supply diversification]`
+### Why This Works Better on GitHub
 
-
-
-#### 3. Cross-Engine Fault Lines (`! FLAG`)
-
-* **Engine #08 (Climate) $\leftrightarrow$ Engine #05 (Energy) & Engine #03 (Tech):** Summer heat cooling demand collides with data-center and industrial electrification on shared grids—risking power rationing or connection delays before 2030.
-* **Engine #08 (Climate) $\leftrightarrow$ Engine #02 (Macro) & Engine #04 (Supply Chains):** Carbon border rules and climate insurance shifts feed directly into goods inflation, trade routes, and capital allocation.
+* **No prose walls:** Every block uses bullets, a 5-row table, or one-line causal arrows.
+* **Same structure across all 8 engines:** Readers know where to look in every file, and monthly updates only touch short lines.
