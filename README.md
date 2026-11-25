@@ -32,6 +32,7 @@ A living foresight project mapping the structural causes reshaping the world thr
 * `.github/ISSUE_TEMPLATE/` — Structured templates for community contributions
   * [propose-cause.yml](.github/ISSUE_TEMPLATE/propose-cause.yml)
 * [CONTRIBUTING.md](CONTRIBUTING.md) — Contribution rules and formatting standards
+* [HOW-TO-USE-IN-REAL-LIFE.md](HOW-TO-USE-IN-REAL-LIFE.md) — Practical answers on 2030 jobs, skills, courses, gold, and growth sectors
 * [LICENSE](LICENSE) — CC BY 4.0 licensing terms
 
 ---
