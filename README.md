@@ -16,6 +16,16 @@ A living foresight project mapping the structural causes reshaping the world thr
 
 ---
 
+## Repository Layout
+* [CONVERGENCE.md](CONVERGENCE.md) — Cross-engine overlaps, bottlenecks, and 2030 pressures across Engines `01`–`08`
+* `engines/` — Domain baselines (`01` through `08`), each structured around factors, policies, causal chains, fault lines, and a monthly log
+* `monthly-digests/` — Monthly cross-engine snapshots (`2026-11.md` onward)
+* `.github/ISSUE_TEMPLATE/propose-cause.yml` — Structured issue form for proposing causes or fault lines
+* `CONTRIBUTING.md` — Contribution rules and formatting standards
+* `LICENSE` — CC BY 4.0 licensing terms
+
+---
+
 ## The 8 Core Engines
 
 | # | Engine | Top-5 Policy Trackers |
